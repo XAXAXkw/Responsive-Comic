@@ -10,9 +10,12 @@ components:{
 </script>
 
 <template>
+  <div >
+  <div class="splash"></div>
   <NavBar />
 
   <router-view/>
+  </div>
 </template>
 
 <style>

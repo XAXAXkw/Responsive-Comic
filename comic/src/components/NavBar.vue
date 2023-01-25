@@ -2,7 +2,10 @@
     <div id="NavBox">
 <div class="container">
     <nav>
-    <router-link to="/">Home</router-link> |
+        <router-link to="/">E01</router-link> |
+        <router-link to="/">E02</router-link> |
+        <router-link to="/">E03</router-link> |
+    <router-link to="/">E01</router-link> |
     <router-link to="/about">About</router-link>
   </nav></div>
     </div>
@@ -30,13 +33,6 @@
 </script>
 
 <style lang="scss" scoped>
-#NavBox{
-    background-color: aquamarine;
-    margin: 0 auto;
 
-
-    display:flex;
-    width:100%;
-}
 
 </style>
