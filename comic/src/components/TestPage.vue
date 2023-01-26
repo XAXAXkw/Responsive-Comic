@@ -30,7 +30,9 @@
 <div class="col colm p06">7</div>
 </div>
 <div class="row">     
-<div class="col colg p07">7</div>
+<div class="col colg p07">
+    <div class="bulleF">  <h4>ボー...! Lorem rendis commodi exercitationem similique <br /> rem laboriosam quasi voluptates natus dolores?</h4></div>
+</div>
 </div>
 
 
@@ -130,7 +132,7 @@ width:fit-content;
 
   .bulleF{
    display: flex;
-   width:min-content;
+   width:fit-content;
     background-color: beige;
     margin:5px;
     padding:0.3rem;
