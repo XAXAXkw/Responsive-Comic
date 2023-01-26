@@ -26,6 +26,10 @@ body {
   margin: 0 auto;
 }
 
+.logos {
+  max-height: 200px;
+}
+
 @media only screen and (max-width: 600px) {
   #NavBox {
     min-height: 600px;
@@ -36,6 +40,9 @@ body {
   }
   .colg, .colm, .colp {
     width: 100%;
+  }
+  .logos {
+    min-height: 400px;
   }
 }
 

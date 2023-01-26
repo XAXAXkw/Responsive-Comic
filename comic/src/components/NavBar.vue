@@ -1,7 +1,9 @@
 <template>
     <div id="NavBox">
 <div class="container">
-RESPONSIVE COMIC-TEMPLATE
+RESPONSIVE COMIC-TEMPLATE 
+<br />
+ <img class="logos" src="@/assets/pics/star_logo.png"/>
     <nav>
         <router-link to="/test">test</router-link> |
         <router-link to="/">E02</router-link> |
@@ -9,6 +11,7 @@ RESPONSIVE COMIC-TEMPLATE
     <router-link to="/">E01</router-link> |
     <router-link to="/about">About</router-link>
   </nav></div>
+
     </div>
 </template>
 
@@ -22,6 +25,5 @@ RESPONSIVE COMIC-TEMPLATE
 </script>
 
 <style lang="scss" scoped>
-
 
 </style>
