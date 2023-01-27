@@ -22,7 +22,7 @@
 
 <div class="row">
      <div class="col-md-4 colg p04 "><div class="off"><h4>off box text test</h4></div>1</div>
-     <div class="col-md-6 colg p05 "><div class="off R"><h4>text test 2</h4></div></div>
+     <div class="col-md-6 colg p05"><div class="off R"><h4>text test 2</h4></div></div>
      </div>
 
 
@@ -56,9 +56,9 @@
   
         
      <div class="row">
-     <div class="bg-dark col-md-2 colm">6</div>
-     <div class="col-md-4 colm">7</div>
-     <div class="col-md-5 colm">8</div>
+     <div class="bg-dark col-md-2 colm ">6</div>
+     <div class="col-md-4 colm p08">7</div>
+     <div class="col-md-5 colm p09">8</div>
      </div>
      
      <br />
@@ -70,7 +70,7 @@
      
      <h1>ボー...!</h1>
      </div>
-     <div class="col-md-6 colg">10</div>
+     <div class="col-md-6 colg p010">10</div>
      </div>
   
   
@@ -188,7 +188,7 @@ width:fit-content;
     background-repeat: no-repeat;
   }
   .p05{
-    background-image: url("../assets/pics/a05.png");
+    background-image: url("../assets/pics/a07.png");
     background-position: center;
     background-size: cover;
   
@@ -209,6 +209,29 @@ width:fit-content;
   
     background-repeat: no-repeat;
   }
+
+  .p08{
+    background-image: url("../assets/pics/a08.png");
+    background-position: center;
+    background-size: cover;
+  
+    background-repeat: no-repeat;
+  }
+  .p09{
+    background-image: url("../assets/pics/a09.png");
+    background-position: center;
+    background-size: cover;
+  
+    background-repeat: no-repeat;
+  }
+  .p010{
+    background-image: url("../assets/pics/a10.png");
+    background-position: center;
+    background-size: cover;
+  
+    background-repeat: no-repeat;
+  }
+
 
 
 
